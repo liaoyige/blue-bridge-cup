@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: liao SKT-faker forever!, 1, LIC=BUURY-IM3TF-Z9WG9-4YFZP-3XTRX-RBUUR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+    Target DLL: coocox-agdi.dll
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\SKT-faker forever!\Desktop\蓝桥杯_嵌入式设计\embedded-blue-bridge-cup-master\2-停车计费(12届真题)\2-车费真题1.3\MDK\USART_RX.uvprojx
+Project File Date:  02/22/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+..\INC\key.h(9): warning:  #1-D: last line of file ends without a newline
+  uint8_t Key_Scan(void);
+..\INC\pwm.h(8): warning:  #1295-D: Deprecated declaration TIM_Config - give arg types
+  void TIM_Config();
+..\INC\pwm.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\INC\led.h(16): warning:  #1-D: last line of file ends without a newline
+  void LED_Control(uint16_t LED,uint8_t LED_Status);
+..\SRE\main.c(48): warning:  #1295-D: Deprecated declaration fflushData - give arg types
+  void fflushData();
+..\SRE\main.c(49): warning:  #1295-D: Deprecated declaration fflushPara - give arg types
+  void fflushPara();
+..\SRE\main.c(50): warning:  #1295-D: Deprecated declaration updateAll - give arg types
+  void updateAll();
+..\SRE\main.c(51): warning:  #1295-D: Deprecated declaration show - give arg types
+  void show();
+..\SRE\main.c(55): warning:  #1295-D: Deprecated declaration receiveData - give arg types
+  void receiveData();
+..\SRE\main.c(145): warning:  #188-D: enumerated type mixed with another type
+                  TIM_Cmd(TIM3, pwmFlag);
+..\SRE\main.c(196): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "int8_t *"
+                USART_SendString(data);
+..\SRE\main.c(209): warning:  #940-D: missing return statement at end of non-void function "analysis"
+  }
+..\SRE\main.c(228): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        LCD_DisplayStringLine(Line3,showCNBR);
+..\SRE\main.c(229): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        LCD_DisplayStringLine(Line5,showVNBR);
+..\SRE\main.c(230): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        LCD_DisplayStringLine(Line7,showIDLE);
+..\SRE\main.c(237): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        LCD_DisplayStringLine(Line3,showCNBRprice);
+..\SRE\main.c(238): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+        LCD_DisplayStringLine(Line5,showVNBRprice);
+..\SRE\main.c: 17 warnings, 0 errors
+linking...
+Program Size: Code=21182 RO-data=5278 RW-data=140 ZI-data=2244  
+FromELF: creating hex file...
+"..\OUTPUT\USART_RX.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\SKT-faker forever!\Desktop\蓝桥杯_嵌入式设计\embedded-blue-bridge-cup-master\2-停车计费(12届真题)\2-车费真题1.3\MDK\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
